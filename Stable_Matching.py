@@ -51,10 +51,10 @@ def main():
                         Men_Free.append(current_suitor)
                         print('{} was earlier engaged to {} but now is engaged to {}! '.format(woman, current_suitor, man))
 
-    print('\n ')
+    print('\n\n')
     print('Stable Matching Finished ! Happy engagement !')
     for man in Matches.keys():
-        print('{} is engaged to {} !'.format(man, Matches[man]))
+        print(f'{man} is engaged to {Matches[man]} !')
 
 
 if __name__ == "__main__":
